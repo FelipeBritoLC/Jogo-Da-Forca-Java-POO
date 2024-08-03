@@ -14,4 +14,4 @@
 - Exibição de imagem correspondente à penalidade atual.
 - Mensagem de fim de jogo com opção de iniciar um novo jogo ou encerrar.
 
-### Este arquivo conecta a lógica do jogo (JogoDaForca.java) com a interface gráfica, proporcionando uma experiência interativa para o usuário.
+### 🔍 Este arquivo conecta a lógica do jogo (JogoDaForca.java) com a interface gráfica, proporcionando uma experiência interativa para o usuário.
