@@ -5,12 +5,15 @@ Código java desenvolvido para representar um jogo da forca para a disciplina Pr
 
 ```plaintext
 JogoDaForca/
+├── README.md
 ├── arquivos/
+│   ├── README.md
 │   ├── categoriapadrao.txt
 │   ├── filmes.txt
 │   ├── esportes.txt
 │   └── divas_pop.txt
 ├── imagens/
+│   ├── README.md
 │   ├── 0.png
 │   ├── 1.png
 │   ├── 2.png
@@ -18,7 +21,7 @@ JogoDaForca/
 │   ├── 4.png
 │   ├── 5.png
 │   ├── 6.png
-│   └── aparencia_tela.png      
+│   └── aparencia_tela.png
 ├── src/
 │   ├── TeladoJogo/
 │   │   ├── TelaJogo.java
@@ -32,6 +35,7 @@ JogoDaForca/
 │   └── Main/
 │       ├── Main.java
 │       └── README.md
+
 ```
 ## 🔧 Tecnologias Utilizadas
 
