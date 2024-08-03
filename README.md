@@ -46,3 +46,6 @@ JogoDaForca/
 3. Salve todos os arquivos caso seu VSCODE não faça o salvamento automaticamente
 4. No painel do Explorador de Arquivos (geralmente à esquerda), navegue até src/Main/Main.java.
 5. Clique com o botão direito no código e selecione Run Java (ou clique no ícone de play que aparece próximo ao método main).
+
+## 🎨 Aparência da interface
+### - Quando você rodar o projeto, a interface que deve aparecer é esta: 
