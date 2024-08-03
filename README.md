@@ -51,5 +51,5 @@ JogoDaForca/
 ## 🎨 Aparência da interface
 ### - Quando você rodar o projeto, a interface que deve aparecer é esta: 
 <p align="center">
-  <img src="imagens/aparencia_tela.png" alt="Tela Inicial" width="400">
+  <img src="imagens/aparencia_tela.png" alt="Tela Inicial" width="500">
 </p>
