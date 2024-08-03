@@ -1,0 +1,8 @@
+Futebol;Esporte mais popular do mundo jogado com uma bola e duas equipes de 11 jogadores
+Basquete;Esporte jogado com uma bola e duas equipes de 5 jogadores, onde o objetivo e fazer cestas
+Volei;Esporte jogado com uma bola e duas equipes de 6 jogadores, separados por uma rede
+Tenis;Esporte jogado com raquetes e uma bola pequena em uma quadra dividida por uma rede
+Natacao;Esporte que envolve nadar em uma piscina ou em aguas abertas
+Atletismo;Conjunto de esportes que inclui corridas, saltos e lancamentos
+Ciclismo;Esporte que envolve andar de bicicleta em diversas modalidades
+Ginastica;Esporte que envolve exercicios fisicos em aparelhos e no solo

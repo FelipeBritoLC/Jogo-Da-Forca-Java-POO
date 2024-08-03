@@ -1,0 +1,8 @@
+Titanic;Filme romantico e tragico baseado no naufragio do famoso navio
+Avatar;Filme de ficcao cientifica sobre humanos em um planeta alienigena
+Vingadores;Filme de super-herois da Marvel reunindo varios personagens iconicos
+Jumanji;Filme de aventura e fantasia sobre um jogo de tabuleiro magico
+Frozen;Filme animado da Disney sobre uma princesa com poderes de gelo
+Interestelar;Filme de ficcao cientifica sobre uma viagem para encontrar um novo lar para a humanidade
+Matrix;Filme de ficcao cientifica sobre uma realidade simulada controlada por maquinas
+Alien;Filme de terror e ficcao cientifica sobre um alienigena mortal em uma nave espacial

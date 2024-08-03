@@ -1,0 +1,12 @@
+Beyonce;Cantora americana com seu ultimo album country
+Madonna;Rainha do pop
+Rihanna;Conhecida por sua musica "Umbrella"
+Adele;Cantora britanica famosa por sua poderosa voz e baladas emocionantes
+Taylor Swift;Cantora e compositora americana que comecou no country e migrou para o pop
+Britney Spears;Princesa do pop conhecida por hits como "Toxic"
+Katy Perry;Cantora americana famosa por musicas como "Firework" e "Roar"
+Lady Gaga;Cantora e atriz conhecida por seu estilo excentrico e hits como "Bad Romance"
+
+
+
+
