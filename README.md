@@ -51,5 +51,13 @@ JogoDaForca/
 ## 🎨 Aparência da interface
 ### - Quando você rodar o projeto, a interface que deve aparecer é esta: 
 <p align="center">
-  <img src="imagens/aparencia_tela.png" alt="Tela Inicial" width="500">
+  <img src="imagens/aparencia_tela.png" alt="Tela Inicial" width="600">
 </p>
+
+## 🎮 Como jogar
+### Após rodar o projeto e a interface aparecer, basta:
+1. escolher uma categoria
+2. clicar no botão de iniciar o jogo
+3. ler a dica da palavra
+4. tentar acertar as letras da palavra que você acha que foi sorteada
+- Lembre-se que só pode ser colocada uma letra a cada tentativa
