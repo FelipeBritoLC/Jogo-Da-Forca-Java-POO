@@ -1,7 +1,7 @@
-# Jogo Da Forca Java-POO
+# ✨ Jogo Da Forca Java-POO
 Código java desenvolvido para representar um jogo da forca para a disciplina Programação Orientada a Objetos.
 
-## Estrutura de Pastas do Projeto Jogo Da Forca
+## 📚 Estrutura de Pastas do Projeto Jogo Da Forca
 
 ```plaintext
 JogoDaForca/
@@ -32,7 +32,7 @@ JogoDaForca/
 │       ├── Main.java
 │       └── README.md
 ```
-## Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 
 ![Java](https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.60.0-007ACC?logo=visual-studio-code&logoColor=white)
