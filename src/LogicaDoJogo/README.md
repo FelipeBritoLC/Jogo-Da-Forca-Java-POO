@@ -92,6 +92,29 @@ public void iniciar(String categoria) throws Exception {
 - Seleciona aleatoriamente uma palavra e sua dica da lista carregada.
 - Inicializa as variáveis e estruturas de dados necessárias para o estado inicial do jogo.
 
+## 💫 Método iniciar:
+```java
+public void iniciar() throws Exception {
+        String categoria = "categoriapadrao";
+        carregarPalavras(categoria);
+        if (palavras.isEmpty()) {
+            throw new Exception("Nenhuma palavra carregada para a categoria " + categoria);
+        }
+        Random random = new Random();
+        int indice = random.nextInt(palavras.size());
+        palavraSorteada = palavras.get(indice).toLowerCase();
+        dicaSorteada = dicas.get(indice);
+        letrasAdivinhadas.clear();
+        penalidade = 0;
+        palavraAdivinhada = new StringBuilder("_".repeat(palavraSorteada.length()));
+        tentativasErradas.clear(); 
+        System.out.println("Palavra sorteada: " + palavraSorteada); 
+    }
+```
+### Sobrecarga do método iniciar:
+- esse método é uma sobrecarga do método iniciar, utilizado quando não é passada nenhuma categoria na chamada do método, de modo que a categoria padrão é selecionada automaticamente.
+- esse método é utilizado na aplicação console. 
+
 ## 💫 Método getPalavraSorteada:
 ```java
 public String getPalavraSorteada() {
@@ -124,7 +147,7 @@ public int getTamanho() {
 
 ## 💫 Método getOcorrencias:
 ```java
-public List<Integer> getOcorrencias(String letra) throws Exception {
+public ArrayList<Integer> getOcorrencias(String letra) throws Exception {
         if (palavraSorteada == null) {
             throw new Exception("Nenhuma palavra foi sorteada ainda");
         }
@@ -134,7 +157,7 @@ public List<Integer> getOcorrencias(String letra) throws Exception {
         }
 
         letrasAdivinhadas.add(letra);
-        List<Integer> ocorrencias = new ArrayList<>();
+        ArrayList<Integer> ocorrencias = new ArrayList<>();
         for (int i = 0; i < palavraSorteada.length(); i++) {
             if (palavraSorteada.charAt(i) == letra.charAt(0)) {
                 ocorrencias.add(i + 1);
@@ -185,10 +208,23 @@ public int getAcertos() {
         if (palavraSorteada == null) {
             return 0;
         }
-        return (int) letrasAdivinhadas.stream().filter(l -> palavraSorteada.contains(l)).count();
+        List<Character> caracteresPalavra = new ArrayList<>();
+        for (char c : palavraSorteada.toCharArray()) {
+            caracteresPalavra.add(c);
+        }
+        int acertos = 0;
+        for (String letraStr : letrasAdivinhadas) {
+            Character letra = letraStr.charAt(0);
+            while (caracteresPalavra.contains(letra)) {
+                acertos++;
+                caracteresPalavra.remove(letra);
+            }
+        }
+        
+        return acertos;
     }
 ```
-- retorna o número de acertos do usuário utilizando um filtro pra verificar quantas letras do conjunto letrasAdivinhadas estão presentes na palavra sorteada.
+- retorna o número de acertos do usuário utilizando um loop para percorrer a palavra sorteada, e a cada letra do conjunto letrasAdivinhadas que estiver presente na palavra, incrementa um acerto.
     
 ## 💫 Método getNumeroPenalidade e getNomePenalidade:
 ```java
@@ -198,8 +234,8 @@ public int getNumeroPenalidade() {
 
     public String getNomePenalidade() {
         String[] penalidades = {
-                "sem penalidades", "perdeu primeira perna", "perdeu segunda perna",
-                "perdeu primeiro braço", "perdeu segundo braço", "perdeu tronco", "perdeu cabeça"
+                "sem penalidades", "uma perna", "segunda perna",
+                "um braço", "segundo braço", "tronco", "cabeça"
         };
         return penalidades[penalidade];
     }
