@@ -1,4 +1,4 @@
-# Explicação dos métodos da classe JogoDaForca
+# 🧠 Lógica do Jogo
 
 ## 💫 Classe JogoDa Forca:
 ```java
