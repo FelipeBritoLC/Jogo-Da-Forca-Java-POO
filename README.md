@@ -39,3 +39,10 @@ JogoDaForca/
 
 - **Linguagem**: Java 17
 - **IDE**: Visual Studio Code
+
+## 🚀 Como Rodar o Projeto
+1. Baixe o projeto inteiro do GitHub e o descompacte
+2. Abra o projeto descompactado no VSCODE
+3. Salve todos os arquivos caso seu VSCODE não faça o salvamento automaticamente
+4. No painel do Explorador de Arquivos (geralmente à esquerda), navegue até src/Main/Main.java.
+5. Clique com o botão direito no código e selecione Run Java (ou clique no ícone de play que aparece próximo ao método main).
